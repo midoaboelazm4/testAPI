@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="keywords" content="HTML, CSS, JavaScript">
+   <meta name="description" content="web for food recipes">
+   <meta name="author" content="Mido abo elazm">
+   <title>API Response</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+   <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+   <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+
+  <!-- Start Header -->
+  <header>
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#">Food</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact us</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input id="inpSearch" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button id="btn" class="btn btn-outline-primary" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+    <div id="header">
+        <img loading="lazy" src="img/stars1.webp" alt="starts" class="stars">
+        <img loading="lazy" src="img/moon2.webp" alt="moon" class="moon2">
+        <div class="contain_img w-50">
+          <img loading="lazy" src="img/pizza5.webp" class="" alt="">
+          <img loading="lazy" src="img/pizza4.webp" class="" alt="">
+          <img loading="lazy" src="img/pizza3.webp" class="" alt="">
+          <img loading="lazy" src="img/pizza2.webp" class="" alt="">
+        </div>
+        <img loading="lazy" src="img/mountains3.webp" alt="mountains3" class="mountains3">
+        <img loading="lazy" src="img/mountains4.webp" alt="monutains4" class="mountains4">
+        <img loading="lazy" src="img/river5.webp" alt="river5" class="river5">
+        <img loading="lazy" src="img/boat6.webp" alt="boat6" class="boat6">
+        <img loading="lazy" src="img/mountains7.webp" alt="mountains7" class="mountains7">
+        
+    </div>
+    <!-- Start Carousel -->
+    <!-- <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img loading="lazy" src="img/pasta2.webp" class="d-block w-100" alt="img pasta two">
+        </div>
+        <div class="carousel-item">
+          <img loading="lazy" src="img/pizza5.webp" class="d-block w-100" alt="img pizza five">
+        </div>
+        <div class="carousel-item">
+          <img loading="lazy" src="img/salad8.webp" class="d-block w-100" alt="img salad eight">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      <div class="carousel-caption rounded  text-start">
+        <div class="content_text">
+          <h1 class="display-4"><span class="h6 d-none d-sm-inline">Dear, </span>
+            <span id="typed2" class="display-1"></span> 
+          </h1>
+          <p class="text-capitalize d-none d-md-block">
+            the best website for food recipes
+          </p>
+          <button class="btn btn-primary d-none d-md-inline">read more</button>
+          <button class="btn btn-dark d-none d-md-inline">view details</button>
+        </div>
+      </div>
+    </div> -->
+    <!-- End Carousel -->
+  </header>
+  <!-- End Header -->
+
+  <!-- Start Main -->
+  <main>
+    <!-- Start About -->
+    <section id="About">
+    <div class="container">
+      <h2 class="display-1">About</h2>
+      <div class="line"></div>
+      <div class="row my-5">
+        <div class="col-lg-6 my-sm-4">
+          <div class="contain_img">
+            <img loading="lazy" src="img/pizza5.webp" class="" alt="">
+            <img loading="lazy" src="img/pizza4.webp" class="" alt="">
+            <img loading="lazy" src="img/pizza3.webp" class="" alt="">
+            <img loading="lazy" src="img/pizza2.webp" class="" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="contain_text">
+            <h3>Hello, </h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, necessitatibus!
+            </p>
+            <p>
+              elit Voluptatem, necessitatibus!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <button class="btn btn-outline-primary my-3">read more</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    </section>
+    <!-- End About -->
+
+    <!-- Start Section Show Details -->
+    <div id="showDetails">
+      <svg id="icon_close" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+        <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+      </svg>
+      <div class="content_details scroll_X">
+        
+      </div>
+    </div>
+    <!-- End Section Show Details -->
+
+    <!-- Start Show Food -->
+    <section class="menu">
+      <div class="container-fluid">
+        <h2 class="display-1">menu</h2>
+        <div class="line"></div>
+        <div class="categories d-none d-md-block">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-md-3 cate">
+                <img loading="lazy" src="img/pasta2.webp" alt="" class="img-fluid">
+                <p class="h2">pasta</p>
+              </div>
+              <div class="col-md-3 cate">
+                <img loading="lazy" src="img/pizza6.webp" alt="" class="img-fluid">
+                <p class="h2">pizza</p>
+              </div>
+              <div class="col-md-3 cate">
+                <img loading="lazy" src="img/salad5.webp" alt="" class="img-fluid">
+                <p class="h2">salad</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="categories categories2 mt-5 d-block d-md-none">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-3 cate">
+                <p class="h2">pasta</p>
+              </div>
+              <div class="col-3 cate">
+                <p class="h2">pizza</p>
+              </div>
+              <div class="col-3 cate">
+                <p class="h2">salad</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div id="myMenu" class="row justify-content-center rounded">
+        </div>
+        <button id="loadMore" class="btn btn-outline-primary mt-4">load more...</button>
+      </div>
+    </section>
+    <!-- End Show Food -->
+
+    <!-- Start Contact Us -->
+    <section class="contact_us">
+      <div class="container">
+        
+        <div class="row">
+          <div class="col-md-6">
+            <h2>contact us</h2>
+        <div class="line"></div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas culpa saepe ea mollitia molestiae asperiores.
+            </p>
+            <ul class="d-flex gap-3">
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                </svg>
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                </svg>
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                </svg>
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                </svg>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <form action="#">
+              <div class="row my-3">
+                <div class="form-floating col-12 ">
+                  <input type="text" class="form-control" id="floatingInputName" placeholder="Name" required>
+                  <label for="floatingInputName" class="form-label px-4">Your Name</label>
+                </div>
+                <div class="form-floating col-12 my-3 ">
+                  <input type="email" class="form-control" id="floatingInputEmail" placeholder="email">
+                  <label for="floatingInputEmail" class="form-label px-4">name@example.com</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-floating col-12">
+                  <textarea class="form-control" placeholder="Leave a comment here" style="min-height:150px" id="floatingTextarea"></textarea>
+                  <label for="floatingTextarea" class="form-label px-4">Comments...</label>
+                </div>
+              </div>
+              <button class="btn btn-outline-primary my-3">click</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Us -->
+
+  </main>
+  <!-- End Main -->
+
+  <!-- Start Footer -->
+  <footer class="mt-5 pt-5">
+    <div class="container">
+    <div class="row d-flex">
+        <div class="col-sm-12 col-md-6 col-lg-3">
+            <ul class="list-unstyled">
+                <li class="mb-5">
+                  <h3>address</h3>
+                </li>
+                <li class="mt-3 mb-2">5 Khairallah Street, <br>
+                  Al-Hanoufiel, Alexandria</li>
+                <li>Call Us:
+                  <a href="#">
+                    (+20) 01223425763
+                  </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-2">
+            <ul class="list-unstyled">
+                <li><h3>resourcse</h3></li>
+                <li><a href="#">About Block Buster</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Forums</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Help Center</a></li>
+            </ul>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-2">
+            <ul class="list-unstyled">
+                <li><h3>account</h3></li>
+                <li><a href="#">My Account</a></li>
+                <li><a href="#">Watchlist</a></li>
+                <li><a href="#">Collections</a></li>
+                <li><a href="#">User Guide</a></li>
+            </ul>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-2">
+            <ul class="list-unstyled">
+                <li><h3>legal</h3></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Security</a></li>
+            </ul>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-3">
+            <ul class="list-unstyled">
+                <li><h3>newsletter</h3></li>
+                <li class="msgSubscribe">
+                  Subscribe to our newsletter system now to get latest news from us
+                </li>
+                <li>
+                  <form action="#">
+                    <div class="form-group flex-column">
+                      <input class="form-control mt-4 mb-2" type="email" placeholder="Enter your email" required>
+                    </div>
+                    <button type="submit" class="btn btn-outline-primary">subscribe now</button>
+                  </form>
+                </li>
+            </ul>
+        </div>
+    </div>    
+    </div>
+    <div class="container-fluid text-center copy_right">
+      <div class="row">
+          <div class="col">
+              <p class="m-0 py-3 ">© 2023 Mido. All Rights Reserved. Designed by 
+                  <span>Mido Abo Elazm</span>.
+              </p>
+          </div>
+      </div>
+    </div>
+</footer>
+  <!-- End Footer -->
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <!-- <script src="js//bootstrap.bundle.min.js"></script> -->
+  <script src="js/script.min.js"></script>
+</body>
+</html>
